@@ -1,0 +1,28 @@
+.root {
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  padding-left:150px;
+}
+
+.primary-navigation-link {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.primary-navigation-link:first-child {
+  margin-left: 32px;
+}
+.left_navbar{
+	width:150px;
+	display: inline-block;
+	left:0;
+	top:0;
+	bottom:0;
+	position: absolute;
+	height: 100vh;
+	background-color: black;
+	line-height: 100px;
+}
